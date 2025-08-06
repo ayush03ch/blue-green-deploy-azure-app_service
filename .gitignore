@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# === Docker ===
+*.log
+*.pid
+*.tar
+*.db
+docker-compose.override.yml
+.dockerignore
+
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+terraform.tfvars
+terraform.tfvars.json
+# If you're using workspace-based .tfvars
+blue.tfstate
+green.tfstate
+
+# === Visual Studio Code ===
+.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
