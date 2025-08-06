@@ -1,0 +1,6 @@
+resource_group_name = "rg-frontdoor"
+location            = "East US"
+frontend_name       = "afd-bluegreen"
+blue_backend_url    = "myapp-blue-web.azurewebsites.net"
+green_backend_url   = "myapp-green-web.azurewebsites.net"
+active_backend      = "blue"
